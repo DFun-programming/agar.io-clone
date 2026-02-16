@@ -1,5 +1,5 @@
 //connect to socket server
-const socket= io.connect('http://localhost:8001');
+const socket= io.connect('https://agar-io-clone-eayh.onrender.com');
 
 // this is called inside of start-game listenner
 const init = async() => {

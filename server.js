@@ -9,7 +9,7 @@ const socketIO = require('socket.io')
 app.use(express.static(__dirname+'/public'));
 const expressServer = app.listen(8001);
 const io = socketIO(expressServer);
-app.set('io',io);
+
 
 //You also can get the app and io from expressStuff/expressMain.js and socketStuff/socketMain.js  
 module.exports = {
